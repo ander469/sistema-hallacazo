@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Josefin+Sans:ital,wght@1,400;1,700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Fuzzy Bubbles', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+body{
+    background-color: #272B40;
+    display: block;
+}
+form {
+	width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+h1{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+}
+input{
+    width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #A6335D;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+  
+}
+input[type='submit']{
+    width: 100%;
+  background: #EE3A57;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+input[type='submit']:hover{
+    background: #A6335D;
+    transition: .5s;
+}
+input[type='reset']{
+    width: 100%;
+    background: #EE3A57;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type='reset']:hover{
+    background: #A6335D;
+    transition: .5s;
+}
+
+.ok{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #0ec48d;
+	color: rgb(255, 255, 255);
+    font-family: 'Fuzzy Bubbles', cursive;
+}

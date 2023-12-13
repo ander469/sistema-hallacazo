@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Josefin+Sans:ital,wght@1,400;1,700&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: start;
+	padding: 12px;
+	color: #444
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: rgba(37, 0, 105, 0.774);
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
+input[type='reset']{
+	background-color: rgb(87, 17, 153);
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: rgb(107, 106, 106)
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
